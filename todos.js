@@ -14,6 +14,6 @@ module.exports = [
   },
   {
     id: 4,
-    task: "Added new item"
+    task: "Added ne item"
   }
 ];
