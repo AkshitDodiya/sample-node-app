@@ -14,6 +14,6 @@ module.exports = [
   },
   {
     id: 4,
-    task: "got to sleep"
+    task: "got to bed"
   }
 ];
