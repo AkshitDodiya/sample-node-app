@@ -18,6 +18,6 @@ module.exports = [
   },
   {
     id: 5,
-    task: "Go for study"
+    task: "go for lunch"
   }
 ];
