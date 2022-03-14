@@ -26,4 +26,10 @@ jobs:
       run: |
         npm install
         npm run build --if-present
+        npm install
+        npm run-script stop
+        npm start
+        pm2 save
+        sudo service nginx restart 
+
 
