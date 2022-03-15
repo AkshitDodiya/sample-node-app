@@ -27,8 +27,9 @@ jobs:
         npm install
         npm run build --if-present
         npm install
-        pm2 kill 
+        pm2 stop all
         pm2 start server.js
+        pm2 save
         sudo service nginx restart 
 
 
