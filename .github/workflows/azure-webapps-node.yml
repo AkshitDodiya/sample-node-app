@@ -28,7 +28,7 @@ jobs:
         npm run build --if-present
         npm install
 
-    - name: pm2 start, restart nginx
+    - name: pm2 start, restart nginx service
       run: |
         pm2 stop all || : && pm2 start server.js
         pm2 save
